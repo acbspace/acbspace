@@ -14,7 +14,7 @@ development, backtesting, risk management, and paper trading through Interactive
 - Added volatility-based position sizing and portfolio risk controls
 - Designed a modular architecture separating research, data, strategy, and execution
 
-**Tech:** `Python` `VectorBT` `IBKR API` `pandas` `NumPy` `Numba` `PyTest`
+**Tech:** `Rust` `Python` `VectorBT` `IBKR API` `pandas` `NumPy` `Numba` `PyTest`
 
 ---
 
@@ -42,7 +42,7 @@ quantitative trading signals from hypothesis through production performance.
 - Maintains reproducible strategy and model histories
 - Provides a centralized ledger for research governance and analysis
 
-**Tech:** `Python` `FastAPI` `PostgreSQL` `Redis` `React` `Docker`
+**Tech:** `Go` `Python` `FastAPI` `PostgreSQL` `Redis` `React` `Docker`
 
 ---
 
