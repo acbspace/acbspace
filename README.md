@@ -6,15 +6,16 @@ I'm a software engineer with a background in finance.
 
 ### 📈 [Algorithmic Trading System](https://github.com/acbspace/algo-trading-system)
 
-A research-to-execution quantitative trading platform supporting strategy
-development, backtesting, risk management, and paper trading through Interactive Brokers.
+A polyglot research-to-execution trading platform: Rust microservices on a NATS
+bus handle the order/tick hot path, Python owns research, and a React dashboard
+streams live state.
 
-- Built vectorized backtesting and performance-analysis pipelines
-- Implemented walk-forward validation and parameter optimization
-- Added volatility-based position sizing and portfolio risk controls
-- Designed a modular architecture separating research, data, strategy, and execution
+- Guaranteed sim/live parity — the backtest engine and live execution share the same compiled order-sizing kernel; a CI parity harness enforces it
+- Built a research funnel with a real gate: OpenBB→TimescaleDB ingest, Rayon-parallel parameter sweeps, walk-forward validation with an overfitting t-test, then Zipline simulation with realistic costs and Alphalens/Pyfolio approval reports
+- Implemented an automated risk engine (CVaR / max-drawdown) with a kill-switch the execution engine honors, plus Prometheus/Grafana observability
+- Designed 9 Rust crates separating market data, sizing, execution, risk, and the read-only web gateway; Interactive Brokers integration behind a broker trait with a deterministic paper broker for CI
 
-**Tech:** `Rust` `Python` `VectorBT` `IBKR API` `pandas` `NumPy` `Numba` `PyTest`
+**Tech:** `Rust` `Python` `TypeScript` `NATS` `Protobuf` `TimescaleDB` `PyO3` `VectorBT` `Zipline` `IBKR API` `Docker` `Kubernetes` `Prometheus`
 
 ---
 
@@ -34,15 +35,15 @@ developer and collaboration tools into a prioritized operational dashboard.
 
 ### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger)
 
-An auditable research platform for recording, evaluating, and tracking
-quantitative trading signals from hypothesis through production performance.
+An auditable research-to-backtest platform that turns analyst PDFs into
+page-cited claims, and claims into reproducible paper backtests.
 
-- Tracks signal definitions, experiments, and backtest results
-- Compares expected performance against realized outcomes
-- Maintains reproducible strategy and model histories
-- Provides a centralized ledger for research governance and analysis
+- Extracts page-cited, evidence-gated claims from research PDFs (heuristic or LLM)
+- Human accept/reject review; strategies must cite accepted claims
+- Immutable strategy versions over checksummed market-data snapshots
+- Deterministic, point-in-time backtests — identical inputs reproduce identical results
 
-**Tech:** `Go` `Python` `FastAPI` `PostgreSQL` `Redis` `React` `Docker`
+**Tech:** `Go` `Python` `FastAPI` `PostgreSQL` `Docker`
 
 ---
 
@@ -60,14 +61,15 @@ social accountability, and competitive seasonal study leagues.
 
 ---
 
-### 🐾 [Pet Friend](https://github.com/acbspace/pet-friend-app)
+### 🐾 Pet Friend
 
-A community-focused mobile application that helps pet owners create pet profiles,
-discover pet-friendly locations, and connect with nearby pet communities.
+A mobile app that tracks a pet's entire life in one place — health and
+vaccination records, vet appointments, photos, and a start-to-finish timeline.
 
-- Pet and owner profile management
-- Location-based discovery
-- Community posts and interactions
+- Pet profiles with health, vaccination, and medication history
+- Vet appointment calendar with Google Calendar sync
+- Photo and document storage for records
+- Life-story timeline from adoption onward
 - Cross-platform mobile experience
 
-**Tech:** `React Native` `Expo` `TypeScript` `FastAPI` `PostgreSQL`
+**Tech:** `React Native` `Expo` `TypeScript` `Supabase` `PostgreSQL`
