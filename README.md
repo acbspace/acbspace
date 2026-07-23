@@ -35,7 +35,7 @@ inspired by Datadog and PagerDuty.
 - Runs on Kubernetes, instrumented end-to-end with OpenTelemetry — distributed
   tracing across HTTP and Kafka, metrics, and structured logs
 
-**Tech:** `Go` `React` `Kafka` `PostgreSQL` `Docker` `Kubernetes` `OpenTelemetry` `Temporal`
+**Tech:** `Go` `React` `Kafka` `PostgreSQL` `Docker` `Kubernetes` `OpenTelemetry` `Temporal`  
 <sub>Kafka, Kubernetes for learning purpose</sub>
 
 ---
