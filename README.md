@@ -30,6 +30,7 @@ developer and collaboration tools into a prioritized operational dashboard.
 - Designed around event-driven services and observable infrastructure
 
 **Tech:** `Go` `React` `Kafka` `PostgreSQL` `Docker` `Kubernetes` `OpenTelemetry`
+<sub>Kafka, Kubernetes for learning purpose</sub>
 
 ---
 
