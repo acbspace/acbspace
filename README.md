@@ -61,7 +61,7 @@ social accountability, and competitive seasonal study leagues.
 
 ---
 
-### 🐾 Pet Friend
+### 🐾 [Pet Friend](https://github.com/acbspace/pet-friend-app)
 
 A mobile app that tracks a pet's entire life in one place — health and
 vaccination records, vet appointments, photos, and a start-to-finish timeline.
