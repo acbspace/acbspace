@@ -40,7 +40,7 @@ inspired by Datadog and PagerDuty.
 
 ---
 
-### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger)
+### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger-project)
 
 An auditable research-to-backtest platform that turns analyst PDFs into
 page-cited claims, and claims into reproducible paper backtests.
