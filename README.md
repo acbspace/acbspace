@@ -4,7 +4,7 @@ I'm a software engineer with a background in finance.
 
 ## 🚀 Featured Projects
 
-### 📈 [Algorithmic Trading System](https://github.com/acbspace/algo-trading-system)
+### 📈 [Algorithmic Trading System](https://github.com/acbspace/algo-trading-system)  <sub> (Private) </sub>
 
 A polyglot research-to-execution trading platform: Rust microservices on a NATS
 bus handle the order/tick hot path, Python owns research, and a React dashboard
@@ -40,7 +40,7 @@ inspired by Datadog and PagerDuty.
 
 ---
 
-### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger)
+### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger)  <sub> (Private) </sub>
 
 An auditable research-to-backtest platform that turns analyst PDFs into
 page-cited claims, and claims into reproducible paper backtests.
@@ -69,7 +69,7 @@ seasonal leagues that reward consistency over raw hours.
 
 ---
 
-### 🐾 [Pet Friend](https://github.com/acbspace/pet-friend-app)
+### 🐾 [Pet Friend](https://github.com/acbspace/pet-friend-app)  <sub> (Private) </sub>
 
 A mobile app that tracks a pet's entire life in one place — health and
 vaccination records, vet appointments, photos, and a start-to-finish timeline.
