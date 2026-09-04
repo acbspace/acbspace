@@ -4,7 +4,7 @@ I'm a software engineer with a background in finance.
 
 ## 🚀 Featured Projects
 
-### 📈 [Algorithmic Trading System](https://github.com/acbspace/algo-trading-system)  <sub> (Private) </sub>
+### 📈 [foldward](https://github.com/acbspace/foldward)  <sub> (Private) </sub>
 
 A polyglot research-to-execution trading platform: Rust microservices on a NATS
 bus handle the order/tick hot path, Python owns research, and a React dashboard
