@@ -54,7 +54,7 @@ page-cited claims, and claims into reproducible paper backtests.
 
 ---
 
-### 🏆 [Study League](https://github.com/acbspace/study-helper-app)
+### 🏆 [Study League](https://github.com/acbspace/study-helper-app) <sub> (Private, part of foldward) </sub>
 
 A cross-platform study-productivity app that turns focused study into visible,
 fair progress — combining focus tools, social accountability, and competitive
