@@ -40,7 +40,7 @@ inspired by Datadog and PagerDuty.
 
 ---
 
-### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger-project)
+### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger-project) <sub> (Private, part of foldward) </sub>
 
 An auditable research-to-backtest platform that turns analyst PDFs into
 page-cited claims, and claims into reproducible paper backtests.
@@ -54,7 +54,7 @@ page-cited claims, and claims into reproducible paper backtests.
 
 ---
 
-### 🏆 [Study League](https://github.com/acbspace/study-helper-app) <sub> (Private, part of foldward) </sub>
+### 🏆 [Study League](https://github.com/acbspace/study-helper-app)
 
 A cross-platform study-productivity app that turns focused study into visible,
 fair progress — combining focus tools, social accountability, and competitive
