@@ -6,17 +6,6 @@ I'm a software engineer with a background in finance.
 
 ### 📈 [foldward](https://github.com/acbspace/foldward)  <sub> (Private) </sub>
 
-A polyglot research-to-execution trading platform: Rust microservices on a NATS
-bus handle the order/tick hot path, Python owns research, and a React dashboard
-streams live state.
-
-- Guaranteed sim/live parity — the backtest engine and live execution share the same compiled order-sizing kernel; a CI parity harness enforces it
-- Built a research funnel with a real gate: OpenBB→TimescaleDB ingest, Rayon-parallel parameter sweeps, walk-forward validation with an overfitting t-test, then Zipline simulation with realistic costs and Alphalens/Pyfolio approval reports
-- Implemented an automated risk engine (CVaR / max-drawdown) with a kill-switch the execution engine honors, plus Prometheus/Grafana observability
-- Designed 9 Rust crates separating market data, sizing, execution, risk, and the read-only web gateway; Interactive Brokers integration behind a broker trait with a deterministic paper broker for CI
-
-**Tech:** `Rust` `Python` `TypeScript` `NATS` `Protobuf` `TimescaleDB` `PyO3` `VectorBT` `Zipline` `IBKR API` `Docker` `Kubernetes` `Prometheus`
-
 ---
 
 ### 🛰️ [Sentinel Flow](https://github.com/acbspace/sentinel-flow-project)
@@ -37,20 +26,6 @@ inspired by Datadog and PagerDuty.
 
 **Tech:** `Go` `React` `Kafka` `PostgreSQL` `Docker` `Kubernetes` `OpenTelemetry` `Temporal`  
 <sub>Kafka, Kubernetes for learning purpose</sub>
-
----
-
-### 📊 [Signal Ledger](https://github.com/acbspace/signal-ledger-project) <sub> (Private, part of foldward) </sub>
-
-An auditable research-to-backtest platform that turns analyst PDFs into
-page-cited claims, and claims into reproducible paper backtests.
-
-- Extracts page-cited, evidence-gated claims from research PDFs (heuristic or LLM)
-- Human accept/reject review; strategies must cite accepted claims
-- Immutable strategy versions over checksummed market-data snapshots
-- Deterministic, point-in-time backtests — identical inputs reproduce identical results
-
-**Tech:** `Go` `Python` `FastAPI` `PostgreSQL` `Docker`
 
 ---
 
