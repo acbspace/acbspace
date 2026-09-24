@@ -4,12 +4,6 @@ I'm a software engineer with a background in finance.
 
 ## 🚀 Featured Projects
 
-### 📈 [foldward](https://github.com/acbspace/foldward)  <sub> (Private) </sub>
-
-www.foldward.com
-
----
-
 ### 🛰️ [Sentinel Flow](https://github.com/acbspace/sentinel-flow-project)
 
 An event-driven incident detection and remediation platform that turns raw
